@@ -1,0 +1,10 @@
+<div class="exam-card-list">
+  <div *ngFor="let exam of exams; let i = index">
+    <app-exam-card
+      [exam]="exam"
+      [patient]="patients[i]"
+      [examiner]="examiners[i]"
+      class="exam-card">
+    </app-exam-card>
+  </div>
+</div>

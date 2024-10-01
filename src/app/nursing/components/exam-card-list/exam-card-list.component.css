@@ -1,0 +1,6 @@
+.exam-card-list {
+  display: flex;
+  flex-direction: row; /* Change this from column to row */
+  gap: 16px;
+  flex-wrap: wrap; /* Optional: Allows wrapping to the next line if there are too many cards */
+}

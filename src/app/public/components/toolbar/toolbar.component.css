@@ -1,0 +1,18 @@
+.toolbar-img{
+  height: 30px  ;
+}
+.mat-spacer {
+  flex: 1 1 auto;
+}
+.toolbar{
+  background-color: lightskyblue;
+}
+.page-option{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.button-text{
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}

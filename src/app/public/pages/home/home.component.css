@@ -1,0 +1,20 @@
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.hero-section-image{
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+.hero-section-content-container{
+  margin: 30px;
+}
+
+.hero-section-content{
+  font-size: 1.5rem;
+}

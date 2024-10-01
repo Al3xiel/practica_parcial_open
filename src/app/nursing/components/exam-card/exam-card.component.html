@@ -1,0 +1,13 @@
+<mat-card class="exam-card">
+  <mat-card-content>
+  <ul>
+    <li style="font-weight: bold">{{'cards.patient'|translate}}</li>
+    <li>{{'cards.patientName'|translate}} {{patient.firstName}} {{patient.lastName}}</li>
+    <li>{{'cards.patientBornDate'|translate}} {{patient.birthDate}}</li>
+    <li style="font-weight: bold">{{'cards.examiner'|translate}}</li>
+    <li>{{'cards.examinerName'|translate}} {{examiner.firstName}} {{examiner.lastName}}</li>
+    <li>{{'cards.examinerNationalProviderId'|translate}} {{examiner.nationalProviderIdentifier}}</li>
+    <li>{{'cards.examTotalScore'|translate}} {{exam.orientationScore + exam.registrationScore + exam.attentionAndCalculationScore + exam.recallScore + exam.languageScore}}</li>
+  </ul>
+  </mat-card-content>
+</mat-card>

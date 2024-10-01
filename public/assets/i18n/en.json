@@ -1,0 +1,23 @@
+{
+  "hero-section": {
+    "phrase": "« HIGN advances equitable health care for older adults by educating\nthe workforce and future professionals, informing policy, advancing research, and providing\ncommunity programs.»"
+  },
+  "mental-state-exams": {
+    "title": "Mental State Exams"
+  },
+  "cards": {
+    "patient": "Patient:",
+    "patientName": "Patient Name:",
+    "patientBornDate": "Born Date:",
+    "examiner": "Examiner:",
+    "examinerName": "Examiner Name:",
+    "examinerNationalProviderId": "National Provider Identifier:",
+    "examTotalScore": "Total Score:"
+  },
+  "pageNotFound":
+  {
+    "return": "Return to the home page",
+    "message1": "The page",
+    "message2": "does not exist."
+  }
+}

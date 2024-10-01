@@ -1,0 +1,80 @@
+{
+  "examiners": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "nationalProviderIdentifier": "123456789"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "nationalProviderIdentifier": "987654321"
+    },
+    {
+      "id": 3,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "nationalProviderIdentifier": "456789123"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "photoUrl": "http://localhost:3000/photos/michael_brown.jpg",
+      "birthDate": "1980-05-15"
+    },
+    {
+      "id": 2,
+      "firstName": "Laura",
+      "lastName": "Davis",
+      "photoUrl": "http://localhost:3000/photos/laura_davis.jpg",
+      "birthDate": "1992-10-25"
+    },
+    {
+      "id": 3,
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "photoUrl": "http://localhost:3000/photos/emily_wilson.jpg",
+      "birthDate": "1975-02-09"
+    }
+  ],
+  "mental-state-exams": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "examinerId": 2,
+      "examDate": "2024-09-01",
+      "orientationScore": 5,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 4,
+      "recallScore": 3,
+      "languageScore": 5
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "examinerId": 1,
+      "examDate": "2024-08-25",
+      "orientationScore": 4,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 3,
+      "recallScore": 4,
+      "languageScore": 4
+    },
+    {
+      "id": 3,
+      "patientId": 3,
+      "examinerId": 3,
+      "examDate": "2024-07-15",
+      "orientationScore": 5,
+      "registrationScore": 2,
+      "attentionAndCalculationScore": 5,
+      "recallScore": 3,
+      "languageScore": 5
+    }
+  ]
+}
